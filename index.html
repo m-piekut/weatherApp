@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/stlye.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="top">
+            <h1 class="top__h1">weather app</h1>
+            <div class="top__mainInfo">
+                <h3 class="top__mainInfo--cityName">Miasto</h3>
+                <input type="text" class="top__mainInfo--input" placeholder="Wpisz nazwę miasta..."></input>
+                <button class="top__mainInfo--sendButton">wyślij</button>
+                <p class="top__mainInfo--info">Wpisz poprawną nazwę miasta</p>
+            </div>
+            <img src="" alt="ikona pogody" class="top__img">
+        </div>
+        <div class="bottom">
+            <div class="bottom__headings">
+                <p>Weather:</p>
+                <p>Temperature:</p>
+                <p>Humidity:</p>
+            </div>
+            <div class="bottom__weatherInfo">
+                <p class="weatherInfo__p weatherInfo__p--weather"></p>
+                <p class="weatherInfo__p weatherInfo__p--temperature"></p>
+                <p class="weatherInfo__p weatherInfo__p--humidity"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
