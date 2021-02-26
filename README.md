@@ -1,2 +1,2 @@
 # weatherApp
-my weather app
+Aplikacja pogodowa wykorzystująca zewnętrzne API.
